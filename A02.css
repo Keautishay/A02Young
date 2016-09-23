@@ -1,0 +1,154 @@
+body{
+	background: url("bg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav {
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 2% 0 0 19%;
+    padding: 0;
+    overflow: hidden;
+    width: 61%;
+    border: dashed black 1px;
+}
+
+nav ul li {
+    float: left;
+    border: solid black 1px;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin:10px;
+    width:31%;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.2);
+    color: #111;
+    /*opacity: 0.2;*/;
+}
+
+article{
+	position: fixed;
+	border: solid black 1px;
+	height:70%;
+	width:60%;
+	margin: 3% 10% 0 19%;
+}
+
+#me{
+	position:relative;
+	margin-top: 2%;
+	left: 2%;
+}
+
+iframe{
+	position: absolute;
+	margin-top: 13%;
+	left: 23%;
+}
+
+/*#homeSec{
+	border: solid black 1px;
+	float:;
+
+}*/
+#bottom{
+	text-align: center;
+	top: 94%;
+	left: 45%;
+	position:fixed;
+}
+
+#git{
+	position: fixed;
+	top: 93%;
+	right: 20.5%;
+}
+
+#bit{
+	position: fixed;
+	top: 92.5%;
+	right: 23.5%;
+}
+
+
+
+
+
+
+
+
+
+form fieldset{
+	border: 1px dashed red;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+}
+
+#contact{
+	width: 35%;
+}
+
+#age{
+	width: 35%;
+}
+legend { 
+	margin-bottom:3%;
+	font-size: 0.9em;
+}
+
+/*Labels*/
+
+label{
+	display: block;
+	font-size: 1em;
+	float: none;
+	clear: left;
+	width: 40%;
+	height: 35px;
+	margin: 5px 0px;
+	padding-top: 2%;
+}
+
+/*Input & Textarea*/
+
+textarea{
+	display: block;
+	float: none;
+	width: 75%;
+	margin: 4px 0px;
+	height: 130px;
+}
+
+form input{
+	display: block;
+	float: none;
+	width: 75%;
+	margin: 5px 0px;
+}
+
+input[type="submit"]{
+	width: 75px;
+	clear: left;
+	float: none;
+	background-color: rgb(255, 255,255);
+	color: black;
+	font-weight: bold;
+}
